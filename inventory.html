@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/inventory.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <INPUT type="button" value="Add Row" onclick="addRow('dataTable')" />
+
+	<INPUT type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
+
+	<TABLE id="dataTable" width="350px" border="1">
+        <tr>
+            <td>
+                select
+            </td>
+            <td>
+                row number
+            </td>
+            <td>
+                item name
+            </td>
+            <td>
+                quantity
+            </td>
+            <td>
+                description
+            </td>
+            
+        </tr>
+		<TR>
+			<TD><INPUT type="checkbox" name="chk"/></TD>
+			<TD> 1 </TD>
+            <TD> <INPUT type="text" /></TD>
+            <TD> <INPUT type="text" /></TD>
+            <TD> <INPUT type="text" /></TD>   
+		</TR>
+    </TABLE>
+    <a href="index.html"><button id="goback">Go Back</button></a>
+</body>
+</html>
