@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/spellbook.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/spellbook.css">
+    <script src="/js/spellbook.js"></script>
+    <title>spellbook</title>
 </head>
+
 <body>
-    <INPUT type="button" value="Add Row" onclick="addRow('dataTable')" />
+    <INPUT type="button" value="Add Row" id="add" onclick="addRow('dataTable')" />
 
-	<INPUT type="button" value="Delete Row" onclick="deleteRow('dataTable')" />
+    <INPUT type="button" value="Delete Row" id="remove" onclick="deleteRow('dataTable')" />
+    <div id="table">
+        <TABLE id="dataTable" width="350px">
+            <tr> <label for="tr" id="spelllabels">table row</label>
+                <td id="select"> <label for="select" id="spelllabels">check box</label>
+                    select
+                </td>
+                <td id="row number"> <label for="select" id="spelllabels">row number</label>
+                    row number
+                </td>
+                <td id="spell name"> <label for="select" id="spelllabels">spell name</label>
+                    spell name
+                </td>
+                <td id="caster level"> <label for="select" id="spelllabels">caster level</label>
+                    caster level
+                </td>
+                <td id="range"> <label for="select" id="spelllabels">range</label>
+                    range
+                </td>
+                <td id="effect"> <label for="select" id="spelllabels">effect</label>
+                    effect
+                </td>
 
-	<TABLE id="dataTable" width="350px" border="1">
-        <tr>
-            <td>
-                select
-            </td>
-            <td>
-                row number
-            </td>
-            <td>
-                spell name
-            </td>
-            <td>
-                caster level
-            </td>
-            <td>
-                range
-            </td>
-            <td>
-                effect
-            </td>
-            
-        </tr>
-		<TR>
-			<TD><INPUT type="checkbox" name="chk"/></TD>
-			<TD> 1 </TD>
-            <TD> <INPUT type="text" /></TD>
-            <TD> <INPUT type="text" /></TD>
-            <TD> <INPUT type="text" /></TD>
-            <TD> <INPUT type="text" /></TD>
-            
-		</TR>
-    </TABLE>
-    <a href="index.html"><button id="goback">Go Back</button></a>
+            </tr>
+            <TR>
+                <TD><INPUT type="checkbox" name="chk" /></TD> <label for="checkbox" id="spelllabels">check box</label>
+                <TD> 1 </TD><label for="text" id="spelllabels">row number</label>
+                <TD> <INPUT type="text" /></TD><label for="text" id="spelllabels">input field for spell name</label>
+                <TD> <INPUT type="text" /></TD><label for="text" id="spelllabels">input field for caster level</label>
+                <TD> <INPUT type="text" /></TD><label for="text" id="spelllabels">input field for range</label>
+                <TD> <INPUT type="text" /></TD><label for="text" id="spelllabels">input field for spell effect</label>
+
+            </TR>
+        </TABLE>
+    </div>
+    <a href="/index.html"><button id="goback">Go Back</button></a><label for="goback" id="spelllabels">return to main
+        menu</label>
 </body>
+
 </html>
