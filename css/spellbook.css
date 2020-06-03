@@ -1,0 +1,40 @@
+@media screen and (max-width:600px){
+  #table{
+    width:90%;
+  }
+}    
+    
+
+* {
+    font-family: 'Anton', sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
+      text-align: center;
+      background-color: #4a807d;
+      color: #fff4bf;
+    }
+    button {
+      background-color:#264240;
+      border-radius: 6px;
+      border: none;
+      color: #fff4bf;
+      font-size: 30px;
+      padding: 10px;
+      margin:20px;
+      align-content: center;
+      text-transform: uppercase;
+      width: 200px;
+      cursor: pointer;
+    }
+
+table{
+    border-collapse:collapse;
+    font-size: 20px;
+    
+}
+table,th,td{
+    border: 2px solid #fff4bf;
+}
+
+#spelllabels{display:none;}
+

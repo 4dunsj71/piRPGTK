@@ -1,23 +1,39 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Anton', sans-serif;
+
+  font-family: 'Roboto', sans-serif;
     text-align: center;
+    background-color: #4a807d;
+    color: #fff4bf;
   }
   button {
-    background-color: rgb(82, 186, 179);
+    background-color:#264240;
     border-radius: 6px;
     border: none;
-    color: rgb(255, 255, 255);
+    color: #fff4bf;
     padding: 10px;
     text-transform: uppercase;
     width: 200px;
     cursor: pointer;
+    font-size:30px;
   }
   #placeholder {
+    background-color:#264240;
     height: 100px;
     width: 100px;
     padding: 50px;
     margin: 50px auto;
-    border: 1px solid gray;
+    border:2px solid #FCEEAC;
     border-radius: 10px;  
     font-size:80px;
+    color: #fff4bf;
   }
+  #dicechoice
+  {
+    background-color:#264240;
+    color: #fff4bf;
+    font-size: 30px;
+    border-radius:5px;
+    border: 2px solid #fff4bf;
+  }
+  #dicelabels{display:none;}
