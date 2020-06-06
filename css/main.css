@@ -63,5 +63,17 @@
   display: inline-block;
   transform:translate(0,10.5%);
 }
+#charactersheet
+{
+  height: 120px;
+  width: 120px;
+  padding:50px;
+  margin:50px auto;
+  border:2px solid #fff4bf;
+  border-radius: 20px;
+  font-size: 22px;
+  display: inline-block; 
+
+}
 
 #indexlabels{display:none;}
